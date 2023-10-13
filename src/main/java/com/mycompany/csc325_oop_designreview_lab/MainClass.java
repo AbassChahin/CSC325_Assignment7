@@ -39,7 +39,7 @@ public class MainClass {
 		double gpa = scanner.nextDouble();
 		std1.setGPA(gpa);
 		std2.setGPA(gpa);
-		std3.setGPA(gpa);Test
+		std3.setGPA(gpa);
 
 		// Print out toString methods and GPAs given by user.
 		System.out.println(std1 + "\n");
