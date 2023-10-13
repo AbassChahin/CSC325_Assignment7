@@ -10,8 +10,15 @@ package com.mycompany.csc325_oop_designreview_lab;
  */
 public abstract class Human {
     private String name;
-	private String address;
+	protected String address;
 	private short age;
+
+	// default constructor
+	public Human() {
+		this.name = null;
+		this.address = null;
+		this.age = 0;
+	}
 
 	// constructor that takes only two paras
 	public Human(String name, short age) {
